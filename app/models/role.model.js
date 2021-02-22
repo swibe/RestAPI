@@ -7,4 +7,4 @@ const Role = mongoose.model(
     })
 );
 
-module.exports = false;
+module.exports = Role;
