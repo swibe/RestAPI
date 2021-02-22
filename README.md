@@ -5,4 +5,4 @@ This is the backend API of the swibe App. Users actions will be processed by thi
 
 ## Install
 
-  npm install
+  `npm install`
