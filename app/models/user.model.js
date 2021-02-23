@@ -11,7 +11,8 @@ const User = mongoose.model(
                 type: mongoose.Schema.Types.ObjectID,
                 ref: "Role"
             }
-        ]
+        ],
+        bio: String
     })
 );
 

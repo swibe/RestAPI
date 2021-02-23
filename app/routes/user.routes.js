@@ -14,6 +14,8 @@ module.exports = function(app) {
 
   app.get("/test/user", [authJwt.verifyToken], controller.userBoard);
 
+  app.put("/user/setBio", [authJwt.verifyToken], controller.setBio);
+
   app.get(
     "/test/mod",
     [authJwt.verifyToken, authJwt.isModerator],
