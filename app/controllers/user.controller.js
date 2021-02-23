@@ -43,6 +43,6 @@ exports.setBio = (req, res) => {
       } else {
         return res.status(400).send({ message: "User not found" });
       }
-    }); 
+    });
   });
 };
