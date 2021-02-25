@@ -16,6 +16,8 @@ module.exports = function(app) {
 
   app.put("/user/setBio", [authJwt.verifyToken], controller.setBio);
 
+  //app.post("/user/uploadProfilePicture", [authJwt.verifyToken], c)
+
   app.get(
     "/test/mod",
     [authJwt.verifyToken, authJwt.isModerator],
