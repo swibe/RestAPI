@@ -1,5 +1,6 @@
 const { authJwt } = require("../middlewares");
 const controller = require("../controllers/user.controller");
+const uploadcontroller = require("../controllers/upload.controller");
 
 module.exports = function(app) {
   app.use(function(req, res, next) {
@@ -15,6 +16,8 @@ module.exports = function(app) {
   app.get("/test/user", [authJwt.verifyToken], controller.userBoard);
 
   app.put("/user/setBio", [authJwt.verifyToken], controller.setBio);
+
+  app.post("/user/uploadImage", [authJwt.verifyToken], uploadcontroller.uploadFile);
 
   //app.post("/user/uploadProfilePicture", [authJwt.verifyToken], c)
 
