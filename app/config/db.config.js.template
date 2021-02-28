@@ -1,0 +1,6 @@
+module.exports = {
+    HOST: "example.net",
+    PORT: 27017,
+    DB: "swibe",
+    PASSWORD: "securepassword"
+};
