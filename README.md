@@ -11,8 +11,6 @@ This is the backend API of the swibe App. Users actions will be processed by thi
 
 Production start: `npm run start`
 
-Developer start: `npm run dev`
-
 
 ## Using the API
 tba
