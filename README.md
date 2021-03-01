@@ -6,8 +6,8 @@
   <a href="https://github.com/swibe/RestAPI/blob/main/LICENSE" target="_blank">
     <img alt="License: Morzilla Public License 2.0" src="https://img.shields.io/badge/License-Morzilla Public License 2.0-yellow.svg" />
   </a>
-  <a href="https://twitter.com/sw1be" target="_blank">
-    <img alt="Twitter: sw1be" src="https://img.shields.io/twitter/follow/sw1be.svg?style=social" />
+  <a href="https://twitter.com/swibe_us" target="_blank">
+    <img alt="Twitter: swibe_us" src="https://img.shields.io/twitter/follow/swibe_us.svg?style=social" />
   </a>
 </p>
 
