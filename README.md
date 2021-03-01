@@ -1,8 +1,5 @@
 <h1 align="center">Welcome to swibe RestAPI 👋</h1>
 <p>
-  <a href="https://www.npmjs.com/package/swibe RestAPI" target="_blank">
-    <img alt="Version" src="https://img.shields.io/npm/v/swibe RestAPI.svg">
-  </a>
   <a href="https://github.com/swibe/RestAPI/wiki" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
   </a>
